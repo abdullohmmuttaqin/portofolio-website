@@ -78,4 +78,10 @@
     }
 }
 
+@media(max-width: 475px) {
+    .hero-box h1 {
+        font-size: 40px;
+    }
+}
+
 /* Hero */
