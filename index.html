@@ -41,7 +41,7 @@
                 <div class="hero-box">
                     <img src="./portfolio-hcj/assets/images/hero.webp" alt="">
                     <h1>
-                        Hi!, I'm <span>Abdulloh Muhammad Muttaqin</span> <br>
+                        Hi!, I'm <span id="element"></span> <br>
                         Web Developer & Designer
                     </h1>
                 </div>
@@ -52,6 +52,16 @@
 
     <!-- JS -->
     <script src="./dist/js/script.js"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Abdulloh Muhammad Muttaqin"],
+            typeSpeed: 30,
+        });
+    </script>
 </body>
 
 </html>
