@@ -43,3 +43,39 @@
 }
 
 /* Navbar */
+
+/* Hero */
+.hero {
+    margin-block: 70px;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 70px;
+}
+
+.hero-box img {
+    width: 300px;
+}
+
+.hero-box h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.3;
+}
+
+.hero-box h1 span {
+    font-weight: bold;
+    color: #209CEE;
+}
+
+@media(max-width: 768px) {
+    .hero-box h1 {
+        font-size: 45px;
+    }
+}
+
+/* Hero */
