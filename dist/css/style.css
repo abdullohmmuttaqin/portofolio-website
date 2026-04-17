@@ -5,3 +5,41 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Navbar */
+.navbar {
+    padding: 30px 0;
+}
+
+.navbar-box {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-box .menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.navbar-box .menu li {
+    list-style-type: none;
+}
+
+.navbar-box .menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar */
