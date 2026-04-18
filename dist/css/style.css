@@ -138,10 +138,37 @@ header svg {
     border-radius: 5px;
 }
 
+.about-box .tools .tools-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-box .tools .tools-box:hover {
+    background-color: white;
+    color: black;
+}
+
+.about-box .tools .tools-box img {
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
 .about-box .box:nth-child(1) a:hover {
     background-color: white;
     color: black;
     font-weight: bold;
+}
+
+.about-box .tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
 }
 
 @media (max-width: 992px) {
