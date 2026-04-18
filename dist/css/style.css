@@ -103,5 +103,56 @@ header svg {
     font-size: 40px;
 }
 
+.about-box .box:nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 150px;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-box .box:nth-child(1) img {
+    width: 300px;
+    padding: 10px 10px 0 10px;
+    background-color: #209CEE;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.about-box .box:nth-child(1) p {
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.about-box .box:nth-child(1) p span {
+    font-weight: bold;
+}
+
+.about-box .box:nth-child(1) a {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-box .box:nth-child(1) a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .about-box .box:nth-child(1) {
+        grid-template-columns: 1fr;
+
+    }
+
+    .about-box .box:nth-child(1) div {
+        text-align: center;
+    }
+}
 
 /* About */
