@@ -85,3 +85,23 @@
 }
 
 /* Hero */
+
+header svg {
+    margin-bottom: -10px;
+}
+
+/* About */
+.about {
+    background-color: #209CEE;
+    padding-block: 50px;
+    color: white;
+}
+
+.about .container>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+/* About */
